@@ -1,0 +1,16 @@
+[Unit]
+Description=GoCD agent
+Wants=network.target remote-fs.target
+After=network.target remote-fs.target
+
+[Service]
+User=go-agent
+Group=go-agent
+Type=forking
+PIDFile=/var/lib/go-agent/go-agent.pid
+ExecStart=/usr/share/go-agent/agent.sh go-agent service_mode
+ExecStop=/usr/share/go-agent/stop-agent.sh go-agent service_mode
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
