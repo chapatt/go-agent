@@ -1,1 +1,3 @@
-d /var/log/go-agent 0755 8155 8155 -
+d /var/lib/go-agent		0755	go-agent	go-agent	-
+d /var/lib/go-agent/config	0755	go-agent	go-agent	-
+d /var/log/go-agent		0755	go-agent	go-agent	-
