@@ -12,7 +12,7 @@ source=("go-agent-17.12.0-5626.zip::https://download.gocd.org/binaries/17.12.0-5
 	'go-agent.tmpfiles')
 sha1sums=('fb13b25b01e08342c0979e0367ddf48ca346ff98'
 	  '412ff92811025f962250ff956258f562b364019a'
-	  'd06d856b7284b2e0884e48373de19a58a1282002'
+	  '8732e0add330daa1fb534ae05249bd2699c750a0'
 	  '109387b7901e7861bbc4c2f91730cc767bfb7ee3')
 depends=('java-runtime>=8')
 
