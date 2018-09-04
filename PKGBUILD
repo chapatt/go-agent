@@ -1,16 +1,16 @@
 # Maintainer: Chase Patterson <chapatt at gmail dot com>
 pkgname=go-agent
-pkgver=17.12.0
+pkgver=18.8.0
 pkgrel=1
 pkgdesc='GoCD (continuous delivery) agent'
 arch=('any')
 url='http://gocd.org'
 license=('Apache')
-source=("go-agent-17.12.0-5626.zip::https://download.gocd.org/binaries/17.12.0-5626/generic/go-agent-17.12.0-5626.zip"
+source=("go-agent-18.8.0-7433.zip::https://download.gocd.org/binaries/18.8.0-7433/generic/go-agent-18.8.0-7433.zip"
 	'go-agent.service'
 	'go-agent.sysusers'
 	'go-agent.tmpfiles')
-sha1sums=('fb13b25b01e08342c0979e0367ddf48ca346ff98'
+sha1sums=('c841c60d86370e6bcfd1d27c093638c5c0e85937'
 	  '412ff92811025f962250ff956258f562b364019a'
 	  '8732e0add330daa1fb534ae05249bd2699c750a0'
 	  '109387b7901e7861bbc4c2f91730cc767bfb7ee3')
